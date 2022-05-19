@@ -35,7 +35,7 @@ const UserProfiles = () => {
 
   return (
     <>     
-    <div className='m-auto border dark:border-gray-100 items-center rounded-md p-4 transition'>
+    <div className='m-auto lg:w-auto w-3/4 border dark:border-[#ccc] items-center rounded-md p-4 transition'>
       <p className='flex justify-center py-5 text-white text-3xl font-bold'>All Users</p>
         <div className="grid md:gap-x-8 md:gap-y-6 md:grid-cols-5 gap-6 grid-cols-1">
           {allProfile && allProfile.map((profile, index) => {
